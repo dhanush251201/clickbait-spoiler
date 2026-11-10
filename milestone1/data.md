@@ -48,7 +48,7 @@ The official splits contain a few **near-duplicate items across splits**: the sa
 2. A candidate counts as a **duplicate** if the two articles' vocabularies overlap by at least 50% (Jaccard similarity on word sets). This keeps recurring generic headlines apart. *"10 things you need to know before the opening bell"* appears in train and dev, but each copy links to a different day's article (about 20% overlap), so both stay.
 3. The copy in the **earlier** split is dropped. Dev loses items that are in test, and train loses items that are in dev or test. Test is never touched.
 
-This removed **43 train items** (22 duplicated in test, 21 in dev) and **6 dev items** (duplicated in test). Every removed item is listed in `removed_duplicates.tsv` with the item it duplicates and the overlap score. The procedure is in `scripts/make_splits.py` and reproduces these files exactly.
+This removed **43 train items** (22 duplicated in test, 21 in dev) and **6 dev items** (duplicated in test). Every removed item is listed in `removed_duplicates.tsv` with the item it duplicates and the overlap score. The procedure is in `milestone1/make_splits.py` and reproduces these files exactly.
 
 ### Label and platform distribution per split
 
@@ -73,7 +73,7 @@ spoilerqa_data/              <- contents of spoilerqa_data.tar.gz
 └── data.md                  this file
 ```
 
-In the project repository the same files are in `data/splits/`. The untouched original download is in `data/raw/`. `scripts/make_splits.py` rebuilds `data/splits/` and the archive from `data/raw/`. `notebooks/01_eda.ipynb` contains the full exploratory analysis.
+In the project repository the same files are in `data/splits/`. The untouched original download is in `data/raw/`. `milestone1/make_splits.py` rebuilds `data/splits/` and the archive from `data/raw/`. `milestone1/01_eda.ipynb` contains the full exploratory analysis.
 
 ---
 
@@ -169,7 +169,7 @@ Computed on our final splits (4,951 posts). Word counts use whitespace splitting
 
 Multi spoilers by number of spans: 1 span: 30 · 2: 311 · 3: 79 · 4: 43 · 5: 389 · 6: 11 · 8: 1 · 10: 2 · 12: 1.
 
-Two points from the exploratory analysis (`notebooks/01_eda.ipynb`) shape how the data is used:
+Two points from the exploratory analysis (`milestone1/01_eda.ipynb`) shape how the data is used:
 - **Type is largely a matter of spoiler length.** On train, "5 words or fewer → phrase" separates phrase from passage spoilers 98.5% of the time when the gold spoiler is known.
 - **Articles are long relative to model input.** Most contexts exceed 384 tokens, so QA models need a sliding window over the article. Simply truncating would drop the spoiler for 7% of phrase posts, 16% of passage posts and at least one span for 48% of multi posts.
 

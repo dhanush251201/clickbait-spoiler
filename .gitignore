@@ -1,0 +1,19 @@
+# model checkpoints and other large training artifacts
+milestone*/runs/
+*.safetensors
+*.bin
+*.pt
+# downloaded evaluation tools (fetched by setup_meteor.sh)
+milestone*/tools/
+__pycache__/
+.DS_Store
+.ipynb_checkpoints/
+milestone*/smoke/
+milestone*/logs/
+# Milestone 4 keeps its code in code/ (final package layout)
+milestone*/code/tools
+milestone*/code/smoke/
+milestone*/code/logs/
+node_modules/
+# API keys (ANTHROPIC_API_KEY, OPENAI_API_KEY) live here; never commit them
+.env

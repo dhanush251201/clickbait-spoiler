@@ -6,10 +6,10 @@
   dev loses items that are in test, train loses items that are in dev or test
 - kept records are copied line for line, byte for byte
 
-Also writes data/splits/removed_duplicates.tsv and packs data/spoilerqa_data.tar.gz
-(the three splits, the removed-items list and data.md if it exists).
+Also writes data/splits/removed_duplicates.tsv and packs milestone1/spoilerqa_data.tar.gz
+(the three splits, the removed-items list and milestone1/data.md if it exists).
 
-Usage: python scripts/make_splits.py
+Usage: python milestone1/make_splits.py
 """
 import csv
 import itertools
@@ -19,11 +19,12 @@ import tarfile
 from collections import defaultdict
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parent
 RAW_DIR = ROOT / "data" / "raw"
 OUT_DIR = ROOT / "data" / "splits"
-ARCHIVE = ROOT / "data" / "spoilerqa_data.tar.gz"
-DATA_MD = ROOT / "data.md"
+ARCHIVE = HERE / "spoilerqa_data.tar.gz"
+DATA_MD = HERE / "data.md"
 
 SOURCE_FILES = {"train": "train.jsonl", "dev": "validation.jsonl", "test": "test.jsonl"}
 PRIORITY = {"train": 0, "dev": 1, "test": 2}  # the lower split gives up a shared item
