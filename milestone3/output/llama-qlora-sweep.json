@@ -1,0 +1,47 @@
+[
+  {
+    "learning_rate": 5e-05,
+    "dev_bleu": 0.4904739914151867,
+    "dev_bleu_per_epoch": [
+      0.47548204254827875,
+      0.4904739914151867
+    ],
+    "dev_type_balanced_accuracy_per_epoch": [
+      0.7294480124668805,
+      0.7553848214225574
+    ],
+    "train_minutes": 241.5,
+    "trainable_parameters": 41943040,
+    "run_dir": "runs/llama-qlora-lr5e-05"
+  },
+  {
+    "learning_rate": 0.0001,
+    "dev_bleu": 0.5018133507008725,
+    "dev_bleu_per_epoch": [
+      0.46586038205775854,
+      0.5018133507008725
+    ],
+    "dev_type_balanced_accuracy_per_epoch": [
+      0.7403271459875232,
+      0.7731247542568297
+    ],
+    "train_minutes": 239.2,
+    "trainable_parameters": 41943040,
+    "run_dir": "runs/llama-qlora-lr0.0001"
+  },
+  {
+    "learning_rate": 0.0002,
+    "dev_bleu": 0.5038114875171423,
+    "dev_bleu_per_epoch": [
+      0.4824222442830556,
+      0.5038114875171423
+    ],
+    "dev_type_balanced_accuracy_per_epoch": [
+      0.759157296893146,
+      0.7736706227272264
+    ],
+    "train_minutes": 242.7,
+    "trainable_parameters": 41943040,
+    "run_dir": "runs/llama-qlora-lr0.0002"
+  }
+]

@@ -1,0 +1,15 @@
+# Milestone 3. PyTorch comes with the VM image (or is pulled in by these packages); tested with
+# torch 2.14 (macOS, smoke tests) and torch 2.15+cu132 (the L4 VM's ~/project/.venv).
+transformers==5.17.0
+accelerate==1.15.0
+peft==0.21.2
+bitsandbytes==0.50.2; sys_platform == "linux"   # 4-bit loading for Llama QLoRA; CUDA only
+nltk==3.10.3
+bert-score==0.3.13
+scikit-learn>=1.3
+pandas>=2.0
+numpy
+matplotlib
+sentencepiece                                    # DeBERTa-v3 and T5 tokenizers
+protobuf
+papermill                                        # run-all.sh: runs the notebooks with a live log

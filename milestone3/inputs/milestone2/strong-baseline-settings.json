@@ -1,0 +1,10 @@
+{
+  "max_answer_tokens": {
+    "phrase": 24,
+    "passage": 96,
+    "multi": 24
+  },
+  "k": 5,
+  "qa_model": "deepset/roberta-base-squad2",
+  "learning_rate": 1e-05
+}

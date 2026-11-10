@@ -1,0 +1,10 @@
+{
+  "max_answer_tokens": {
+    "phrase": 16,
+    "passage": 64,
+    "multi": 24
+  },
+  "k": 5,
+  "model": "deepset/deberta-v3-large-squad2",
+  "learning_rate": 1e-05
+}
