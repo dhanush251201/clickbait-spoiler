@@ -1,0 +1,54 @@
+{
+  "n": 794,
+  "missing-predictions": 0,
+  "spoiler": {
+    "all": {
+      "bleu": 0.03651453804008384,
+      "exact-match": 0.011335012594458438,
+      "token-f1": 0.10143585710026223,
+      "meteor": 0.10868566003331499,
+      "meteor-implementation": "meteor-1.5",
+      "bertscore": 0.8445967886249724,
+      "n": 794
+    },
+    "phrase": {
+      "bleu": 0.026313276330759184,
+      "exact-match": 0.0,
+      "token-f1": 0.062338230273875805,
+      "meteor": 0.041960628691402886,
+      "meteor-implementation": "meteor-1.5",
+      "bertscore": 0.8400416418954775,
+      "n": 333
+    },
+    "passage": {
+      "bleu": 0.055214636410512094,
+      "exact-match": 0.02830188679245283,
+      "token-f1": 0.14437072402397216,
+      "meteor": 0.17138678532906143,
+      "meteor-implementation": "meteor-1.5",
+      "bertscore": 0.8541394061637375,
+      "n": 318
+    },
+    "multi": {
+      "bleu": 0.018685089560425992,
+      "exact-match": 0.0,
+      "token-f1": 0.09700384347401698,
+      "meteor": 0.09484161136980149,
+      "meteor-implementation": "meteor-1.5",
+      "bertscore": 0.8339835822165429,
+      "n": 143
+    }
+  },
+  "type": {
+    "balanced-accuracy": 0.3333333333333333,
+    "precision-phrase": 0.4193954659949622,
+    "recall-phrase": 1.0,
+    "f1-phrase": 0.59094942324756,
+    "precision-passage": 0.0,
+    "recall-passage": 0.0,
+    "f1-passage": 0.0,
+    "precision-multi": 0.0,
+    "recall-multi": 0.0,
+    "f1-multi": 0.0
+  }
+}

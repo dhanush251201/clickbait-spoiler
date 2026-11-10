@@ -1,0 +1,10 @@
+# Python >= 3.10. The L4 Deep Learning VM already has Python 3.10, PyTorch 2.9 and JupyterLab, so torch is not
+# listed here (transformers 5.17 needs torch >= 2.5). Exact pins are for packages that change results.
+transformers==5.17.0
+accelerate==1.15.0
+nltk==3.10.3
+bert-score==0.3.13
+scikit-learn>=1.3
+pandas>=2.0
+numpy
+sentencepiece
