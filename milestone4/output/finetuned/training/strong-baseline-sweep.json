@@ -1,0 +1,32 @@
+[
+  {
+    "learning_rate": 1e-05,
+    "dev_bleu_gold_types": 0.4433994422420903,
+    "dev_bleu_per_epoch": [
+      0.4122794702276617,
+      0.4433994422420903,
+      0.4350842643056427
+    ],
+    "run_dir": "runs/qa-roberta-base-lr1e-05"
+  },
+  {
+    "learning_rate": 3e-05,
+    "dev_bleu_gold_types": 0.44321996999066365,
+    "dev_bleu_per_epoch": [
+      0.41823816432444744,
+      0.4288789960275024,
+      0.44321996999066365
+    ],
+    "run_dir": "runs/qa-roberta-base-lr3e-05"
+  },
+  {
+    "learning_rate": 5e-05,
+    "dev_bleu_gold_types": 0.42722271084074076,
+    "dev_bleu_per_epoch": [
+      0.41855908267713865,
+      0.42722271084074076,
+      0.42138738484585325
+    ],
+    "run_dir": "runs/qa-roberta-base-lr5e-05"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "model": "meta-llama/Llama-3.1-8B-Instruct",
+  "learning_rate": 0.0002,
+  "lora": {
+    "r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "target_modules": "all-linear",
+    "task_type": "CAUSAL_LM"
+  },
+  "quantization": "nf4",
+  "article_tokens": 1600,
+  "max_new_tokens": 256,
+  "decoding": "greedy"
+}

@@ -1,0 +1,4 @@
+Llama 3.1 8B,BLEU,phrase,passage,multi,type bal. acc.,predicted phrase,predicted passage,predicted multi,items per post,"several items, phrase/passage",words per post (gold phrase),words per post (gold passage),copied from the article,zero BLEU
+prompted (0 worked examples),0.19781175551452693,0.27012803900964133,0.15967190467833958,0.11034377832228628,0.5451048739572631,0.138,0.707,0.155,2.519,0.057971014492753624,9.0,17.0,0.9737887212073074,0.31
+fine-tuned (QLoRA),0.507074241326794,0.6481427446997018,0.36588273105595065,0.4911443661107585,0.7584757885328259,0.433,0.413,0.154,1.437,,2.0,20.0,0.9909533750869868,0.111
+gold (for reference),,,,,,0.423,0.403,0.174,1.463,0.0,2.0,18.0,,

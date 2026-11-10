@@ -1,0 +1,7 @@
+{
+  "model": "google/flan-t5-large",
+  "learning_rate": 0.0003,
+  "max_source_tokens": 1024,
+  "max_target_tokens": 192,
+  "num_beams": 4
+}

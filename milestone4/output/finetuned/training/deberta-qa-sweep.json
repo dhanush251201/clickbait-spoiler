@@ -1,0 +1,35 @@
+[
+  {
+    "learning_rate": 5e-06,
+    "dev_bleu": 0.485686247715055,
+    "dev_bleu_per_epoch": [
+      0.46842980172621684,
+      0.48085888340640104,
+      0.485686247715055
+    ],
+    "train_minutes": 66.0,
+    "run_dir": "runs/deberta-qa-lr5e-06"
+  },
+  {
+    "learning_rate": 1e-05,
+    "dev_bleu": 0.4964135577610124,
+    "dev_bleu_per_epoch": [
+      0.47327508924984424,
+      0.48333313363006886,
+      0.4964135577610124
+    ],
+    "train_minutes": 66.0,
+    "run_dir": "runs/deberta-qa-lr1e-05"
+  },
+  {
+    "learning_rate": 2e-05,
+    "dev_bleu": 0.48867195157423376,
+    "dev_bleu_per_epoch": [
+      0.4761924953937518,
+      0.4880311654458545,
+      0.48867195157423376
+    ],
+    "train_minutes": 66.0,
+    "run_dir": "runs/deberta-qa-lr2e-05"
+  }
+]

@@ -1,0 +1,42 @@
+{"run": "gpt-oss-20b_article_k0_dev200", "time": "2026-11-09 01:47", "requests": 200, "minutes": 9.2}
+{"run": "gpt-oss-20b_article_k3_dev200", "time": "2026-11-09 01:55", "requests": 200, "minutes": 8.1}
+{"run": "gpt-oss-20b_article_k6_dev200", "time": "2026-11-09 02:03", "requests": 200, "minutes": 8.1}
+{"run": "llama3.1-8b_article_k0_dev200", "time": "2026-11-09 02:20", "requests": 200, "minutes": 17.1}
+{"run": "llama3.1-8b_article_k3_dev200", "time": "2026-11-09 02:37", "requests": 200, "minutes": 16.8}
+{"run": "llama3.1-8b_article_k6_dev200", "time": "2026-11-09 02:53", "requests": 200, "minutes": 15.3}
+{"run": "claude-sonnet-5.5_article_k0_dev200", "time": "2026-11-09 02:53", "batch_id": "msgbatch_019JCqDpbDzT6Ure9ybxasqG", "requests": 200, "failed": 0, "minutes": 74.9}
+{"run": "claude-sonnet-5.5_article_k3_dev200", "time": "2026-11-09 02:53", "batch_id": "msgbatch_01KJrvUKqFoKBNbjWDHiygV7", "requests": 200, "failed": 0, "minutes": 74.9}
+{"run": "claude-sonnet-5.5_article_k6_dev200", "time": "2026-11-09 02:53", "batch_id": "msgbatch_013PyjocxxCXvi8p7LEXWYTZ", "requests": 200, "failed": 0, "minutes": 74.9}
+{"run": "claude-haiku-5.5_article_k0_dev200", "time": "2026-11-09 02:53", "batch_id": "msgbatch_01KdzjJHvNcuLvbEBKCNJGRs", "requests": 200, "failed": 0, "minutes": 74.9}
+{"run": "claude-haiku-5.5_article_k3_dev200", "time": "2026-11-09 02:53", "batch_id": "msgbatch_011EnjD5t8MP3x3ppcSEBmyg", "requests": 200, "failed": 0, "minutes": 74.9}
+{"run": "claude-haiku-5.5_article_k6_dev200", "time": "2026-11-09 02:53", "batch_id": "msgbatch_01R4UUYFhkAAmXEsCVUH54iQ", "requests": 200, "failed": 0, "minutes": 74.9}
+{"run": "gpt-6.1-sol_article_k0_dev200", "time": "2026-11-09 02:53", "batch_id": "batch_6af16a57a24c8190894dcfca0b7bca2a", "requests": 200, "failed": 0, "minutes": 74.9, "status": "completed"}
+{"run": "gpt-6.1-sol_article_k3_dev200", "time": "2026-11-09 02:53", "batch_id": "batch_6af16a5961648190ad78f1e5f29c6a51", "requests": 200, "failed": 0, "minutes": 74.9, "status": "completed"}
+{"run": "gpt-6.1-sol_article_k6_dev200", "time": "2026-11-09 02:53", "batch_id": "batch_6af16a5b132c81908471d0cd990cafc1", "requests": 200, "failed": 0, "minutes": 74.9, "status": "completed"}
+{"run": "gpt-6-luna_article_k0_dev200", "time": "2026-11-09 02:53", "batch_id": "batch_6af16a5c2b4c8190b317ea83bd78cf15", "requests": 200, "failed": 0, "minutes": 74.9, "status": "completed"}
+{"run": "gpt-6-luna_article_k3_dev200", "time": "2026-11-09 02:53", "batch_id": "batch_6af16a5d71d08190869dcd3548c28448", "requests": 200, "failed": 0, "minutes": 74.8, "status": "completed"}
+{"run": "gpt-6-luna_article_k6_dev200", "time": "2026-11-09 02:53", "batch_id": "batch_6af16a5eef9481909c591d6f9e477360", "requests": 200, "failed": 0, "minutes": 74.8, "status": "completed"}
+{"run": "gpt-oss-20b_article_k0_test", "time": "2026-11-09 03:36", "requests": 1000, "minutes": 43.2}
+{"run": "llama3.1-8b_article_k0_test", "time": "2026-11-09 04:55", "requests": 1000, "minutes": 79.0}
+{"run": "claude-sonnet-5.5_article_k6_test", "time": "2026-11-09 04:55", "batch_id": "msgbatch_01Sy7VybqU4nRVXapugshJkQ", "requests": 1000, "failed": 0, "minutes": 122.4}
+{"run": "claude-haiku-5.5_article_k3_test", "time": "2026-11-09 04:55", "batch_id": "msgbatch_01Ev9vJBZFNmvWsaFn6ZgoBM", "requests": 1000, "failed": 0, "minutes": 122.4}
+{"run": "gpt-6.1-sol_article_k6_test", "time": "2026-11-09 04:55", "batch_id": "batch_6af17bf0c3dc8190a51afa4848cdd75b", "requests": 1000, "failed": 0, "minutes": 122.3, "status": "failed"}
+{"run": "gpt-6-luna_article_k3_test", "time": "2026-11-09 04:55", "batch_id": "batch_6af17bf30de08190a1da7e1808e47054", "requests": 1000, "failed": 0, "minutes": 122.3, "status": "completed"}
+{"run": "gpt-oss-20b_article_k0_test300", "time": "2026-11-09 05:16", "requests": 300, "minutes": 13.3}
+{"run": "gpt-oss-20b_closedbook_k0_test300", "time": "2026-11-09 05:29", "requests": 300, "minutes": 12.9}
+{"run": "llama3.1-8b_article_k0_test300", "time": "2026-11-09 05:53", "requests": 300, "minutes": 24.0}
+{"run": "llama3.1-8b_closedbook_k0_test300", "time": "2026-11-09 05:57", "requests": 300, "minutes": 3.8}
+{"run": "claude-sonnet-5.5_article_k0_test300", "time": "2026-11-09 05:57", "batch_id": "msgbatch_016H9qGSf3TjHpm36ZAnGGLd", "requests": 300, "failed": 0, "minutes": 54.1}
+{"run": "claude-haiku-5.5_article_k0_test300", "time": "2026-11-09 05:57", "batch_id": "msgbatch_0133ESqBvNAQrcmHf3SYk6Ra", "requests": 300, "failed": 0, "minutes": 54.1}
+{"run": "gpt-6.1-sol_article_k0_test300", "time": "2026-11-09 05:57", "batch_id": "batch_6af19a5d72f081908685d1002dfe3076", "requests": 300, "failed": 0, "minutes": 54.1, "status": "completed"}
+{"run": "gpt-6.1-sol_article_k6_test", "time": "2026-11-09 14:45", "requests": 1000, "minutes": 4.4}
+{"run": "gpt-6-luna_article_k0_test300", "time": "2026-11-09 15:03", "batch_id": "batch_6af19a5f44448190bc68a549e5ad1c85", "requests": 300, "failed": 64, "minutes": 600.6, "status": "cancelled"}
+{"run": "gpt-6-luna_article_k0_test300", "time": "2026-11-09 15:04", "requests": 300, "minutes": 10.8}
+{"run": "claude-sonnet-5.5_closedbook_k6_test300", "time": "2026-11-09 15:04", "batch_id": "msgbatch_013eGsrs9F1jfTaBAJHUKfcz", "requests": 300, "failed": 0, "minutes": 601.1}
+{"run": "claude-sonnet-5.5_closedbook_k6_test300", "time": "2026-11-09 15:04", "requests": 300, "minutes": 0.0}
+{"run": "claude-haiku-5.5_closedbook_k3_test300", "time": "2026-11-09 15:04", "batch_id": "msgbatch_01AfKZ75iyTAdr25zcQQKi3K", "requests": 300, "failed": 0, "minutes": 601.1}
+{"run": "claude-haiku-5.5_closedbook_k3_test300", "time": "2026-11-09 15:04", "requests": 300, "minutes": 0.0}
+{"run": "gpt-6.1-sol_closedbook_k6_test300", "time": "2026-11-09 15:04", "batch_id": "batch_6af19a62e7008190a0793500786600e9", "requests": 300, "failed": 0, "minutes": 601.1, "status": "completed"}
+{"run": "gpt-6.1-sol_closedbook_k6_test300", "time": "2026-11-09 15:04", "requests": 300, "minutes": 0.0}
+{"run": "gpt-6-luna_closedbook_k3_test300", "time": "2026-11-09 15:14", "batch_id": "batch_6af19a63f0308190802554e9cc388a48", "requests": 300, "failed": 22, "minutes": 611.4, "status": "cancelled"}
+{"run": "gpt-6-luna_closedbook_k3_test300", "time": "2026-11-09 15:14", "requests": 300, "minutes": 10.6}
